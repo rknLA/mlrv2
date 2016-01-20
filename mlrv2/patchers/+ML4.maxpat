@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 293.0, 107.0, 1457.0, 1148.0 ],
+		"rect" : [ 34.0, 79.0, 1298.0, 606.0 ],
 		"bgcolor" : [ 0.101961, 0.101961, 0.101961, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -39,6 +39,24 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"angle" : 0.0,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.501961 ],
+					"hidden" : 1,
+					"id" : "obj-46",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 717.0, 855.0, 123.0, 63.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 65.0, 66.0, 448.0, 262.0 ],
+					"proportion" : 0.39,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.654902, 0.411765, 0.929412, 1.0 ],
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 11.0,
@@ -48,7 +66,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 240.833313, 809.0, 74.0, 21.0 ],
-					"presentation_rect" : [ 457.0, 329.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "r [ml4-rec]sel"
 				}
@@ -65,7 +82,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 57.333313, 441.0, 74.0, 21.0 ],
-					"presentation_rect" : [ 19.0, 835.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "r [ml4-rec]sel"
 				}
@@ -81,7 +97,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 39.333313, 470.5, 37.0, 21.0 ],
-					"presentation_rect" : [ 21.0, 839.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "i"
 				}
@@ -97,7 +112,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 39.333313, 410.5, 41.0, 21.0 ],
-					"presentation_rect" : [ 21.0, 779.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "del 80"
 				}
@@ -113,7 +127,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 39.333313, 500.5, 52.0, 21.0 ],
-					"presentation_rect" : [ 21.0, 869.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "s recsp"
 				}
@@ -142,7 +155,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 197.666626, 950.5, 93.0, 21.0 ],
-					"presentation_rect" : [ 456.0, 687.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "s samplerupdate"
 				}
@@ -243,8 +255,8 @@
 					"id" : "obj-164",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 340.333313, 812.5, 88.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "tempo_calc.js",
@@ -706,7 +718,7 @@
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"patching_rect" : [ 1344.0, 618.0, 36.0, 12.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 457.0, 230.0, 52.0, 20.0 ],
+					"presentation_rect" : [ 306.0, 246.0, 52.0, 20.0 ],
 					"toggle" : 1
 				}
 
@@ -722,7 +734,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1326.0, 618.0, 18.0, 12.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 457.0, 230.0, 52.0, 20.0 ],
+					"presentation_rect" : [ 306.0, 246.0, 52.0, 20.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""
@@ -745,7 +757,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1107,7 +1119,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1324.0, 649.5, 70.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 451.0, 230.0, 72.0, 22.0 ],
+					"presentation_rect" : [ 300.0, 246.0, 72.0, 22.0 ],
 					"style" : "",
 					"text" : "STOP",
 					"textcolor" : [ 1.0, 0.94902, 0.0, 1.0 ],
@@ -1231,24 +1243,6 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.501961 ],
-					"hidden" : 1,
-					"id" : "obj-46",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 717.0, 855.0, 123.0, 63.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 108.0, 411.5, 448.0, 262.0 ],
-					"proportion" : 0.39,
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.654902, 0.411765, 0.929412, 1.0 ],
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 11.0,
@@ -1295,7 +1289,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1571,7 +1565,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1976,7 +1970,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2293,7 +2287,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2656,7 +2650,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2973,7 +2967,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3290,7 +3284,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3653,7 +3647,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3970,7 +3964,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -4301,7 +4295,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -4762,7 +4756,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -5042,7 +5036,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -5503,7 +5497,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -5850,7 +5844,7 @@
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
 					"id" : "obj-131",
-					"items" : [ "<separator>", ",", 1 ],
+					"items" : [ "1+2", ",", "<separator>", ",", 1, ",", 2 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -5897,7 +5891,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -6006,23 +6000,6 @@
 ,
 					"style" : "",
 					"text" : "p drag"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgtransparent" : 1,
-					"border" : 0,
-					"id" : "obj-121",
-					"ignoreclick" : 1,
-					"local" : 0,
-					"maxclass" : "lcd",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "list", "list", "int", "" ],
-					"patching_rect" : [ 950.0, 140.0, 36.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 299.0, 250.0, 23.0, 22.0 ]
 				}
 
 			}
@@ -6182,7 +6159,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -6362,7 +6339,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -6585,7 +6562,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.501961 ],
-					"buffername" : "6file",
+					"buffername" : "1file",
 					"grid" : 0.0,
 					"gridcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-103",
@@ -6636,18 +6613,18 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 36.0, 24.0, 64.0, 21.0 ],
 					"restore" : 					{
-						"[rec]buffer-selector" : [ 5 ],
+						"[rec]buffer-selector" : [ 7 ],
 						"[rec]thru" : [ 0 ],
 						"gain" : [ 127 ],
 						"input-device" : [ 0 ],
 						"inputchannel" : [ 0 ],
-						"length[1]" : [ 6 ],
+						"length[1]" : [ 8 ],
 						"prerecord" : [ 0.0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u970000697"
+					"varname" : "u159015575"
 				}
 
 			}
@@ -6667,7 +6644,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -7052,7 +7029,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -7671,7 +7648,7 @@
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
 					"id" : "obj-3",
-					"items" : "Display Audio",
+					"items" : [ "Built-in Microphone", ",", "Pro Tools Aggregate I/O", ",", "Universal Audio Apollo", ",", "Flower i/o" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -7733,7 +7710,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -8490,7 +8467,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -9026,26 +9003,6 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"background" : 1,
-					"bgcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"bordercolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-118",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1046.0, 137.0, 36.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 263.0, 242.0, 55.0, 34.0 ],
-					"proportion" : 0.39,
-					"rounded" : 0,
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 0.0,
-					"background" : 1,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-9",
 					"maxclass" : "panel",
@@ -9317,15 +9274,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-116", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-121", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-120", 0 ]
 				}
 
 			}
@@ -9970,7 +9918,7 @@
 					"destination" : [ "obj-216", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 438.999959, 314.0, 456.833313, 314.0, 456.833313, 361.0, 417.833313, 361.0, 417.833313, 556.0, 355.833313, 556.0 ],
+					"midpoints" : [ 438.999969, 314.0, 456.833313, 314.0, 456.833313, 361.0, 417.833313, 361.0, 417.833313, 556.0, 355.833313, 556.0 ],
 					"source" : [ "obj-186", 2 ]
 				}
 
@@ -10786,21 +10734,15 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "right-triangle-large.png",
-				"bootpath" : "~/Downloads/mlrv2-2.6.1/mlrv2/media",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "paramap.maxpat",
-				"bootpath" : "~/Downloads/mlrv2-2.6.1/mlrv2/patchers",
+				"bootpath" : "~/Code/monome/mlrv2/mlrv2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "left-triangle-large.png",
-				"bootpath" : "~/Downloads/mlrv2-2.6.1/mlrv2/media",
-				"type" : "PNG ",
+				"name" : "tempo_calc.js",
+				"bootpath" : "~/Music/Ableton/User Library/Max for Live Devices/ML4",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
